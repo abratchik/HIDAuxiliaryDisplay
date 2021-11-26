@@ -1,0 +1,24 @@
+#######################################
+# Coloring Map For HID library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+HID                 KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setFeature          KEYWORD2
+setStringFeature    KEYWORD2
+sendReport          KEYWORD2
+setSerial           KEYWORD2
+setOutput           KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
