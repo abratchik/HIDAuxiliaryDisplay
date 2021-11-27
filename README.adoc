@@ -11,6 +11,9 @@ For more information about USB HID specs please read https://www.usb.org/sites/d
 * Leonardo
 * (Pro)Micro
 
+== Supported LCD displays ==
+* 1602A (Monochrome LCD 16x2)
+
 == Setup & Usage ==
 TBD
 
