@@ -1,4 +1,4 @@
-= HID Auxiliary  Library for Arduino =
+= HID Auxiliary Display Library for Arduino =
 
 This library allows an Arduino board with USB capabilities and connected LCD display to act as 
 a HID-compliant Auxiliary Display to the host computer, which can be used for displaying any system output
@@ -18,7 +18,7 @@ TBD
 TBD
 
 == Tested on Operating Systems ==
-TBD
+* Linux 18.04 LTS
 
 == License ==
 

@@ -10,11 +10,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/abratchik/Documents/Arduino/libraries/HIDAuxiliaryDisplay/src/HIDAuxiliaryDisplay.cpp</file>
             <file>file:/Users/abratchik/Documents/Arduino/libraries/HIDAuxiliaryDisplay/src/HIDAuxiliaryDisplay.h</file>
             <file>file:/Users/abratchik/Documents/Arduino/libraries/HIDAuxiliaryDisplay/src/HID/HID.cpp</file>
             <file>file:/Users/abratchik/Documents/Arduino/libraries/HIDAuxiliaryDisplay/examples/1602A/1602A.ino</file>
             <file>file:/Users/abratchik/Documents/Arduino/libraries/HIDAuxiliaryDisplay/src/HID/HID.h</file>
+            <file>file:/Users/abratchik/Documents/Arduino/libraries/HIDAuxiliaryDisplay/keywords.txt</file>
+            <file>file:/Users/abratchik/Documents/Arduino/libraries/HIDAuxiliaryDisplay/README.adoc</file>
         </group>
     </open-files>
 </project-private>
