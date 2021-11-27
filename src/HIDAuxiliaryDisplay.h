@@ -35,8 +35,40 @@
 #warning "Using legacy HID core (non pluggable)"
 
 #else
+// Display params flags
+#define HID_AUXD_ASCII_CHARSET      0x80 // Screen supports
+#define HID_AUXD_DATAREAD_BACK      0x40 // Character Report can be read back when set
+#define HID_AUXD_FONTREAD_BACK      0x20 // Font Report can be read back when set
+
+// Display control flags
+#define HID_AUXD_CLEAR              0x80 // Clear Display command
+#define HID_AUXD_ENABLE             0x40 // Display enable
+#define HID_AUXD_SSENABLE           0x20 // Screen Saver enable
+#define HID_AUXD_VSCROLL            0x10 // Vertical Scroll
+#define HID_AUXD_HSCROLL            0x08 // Horizintal Scroll
+
+// Cursor control flags
+#define HID_ADCC_PIXELPOS         0x80 // Cursor Pixel Positioning
+#define HID_ADCC_INCREMENT        0x40 // Cursor Mode = Increment
+#define HID_ADCC_ENABLE           0x20 // Cursor Enable
+#define HID_ADCC_BLINK            0x10 // Cursor Blink 
 
 //================================================================================
+typedef struct
+{
+  uint8_t rows;     // 0x35
+  uint8_t cols;     // 0x36
+  uint8_t chrw;     // 0x3d char width 
+  uint8_t chrh;     // 0x3e char height
+  uint8_t flags;    // 0x21|0x22|0x29|5 unused
+} HIDDisplayParams;
+
+
+typedef struct
+{
+  uint8_t row;    // 0x33
+  uint8_t col;    // 0x34
+} HIDCursorPos;
 
 
 #endif
