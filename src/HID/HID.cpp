@@ -280,9 +280,9 @@ int HID_::begin(void)
 	return 0;
 }
 
-int HID_::begin(const uint8_t* descriptor)
+int HID_::begin(const uint8_t* descriptor, size_t size)
 {
-    static HIDSubDescriptor node(descriptor, sizeof (descriptor));
+    static HIDSubDescriptor node(descriptor, size);
 
     HID().AppendDescriptor(&node);
     return begin();
