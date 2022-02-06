@@ -1,4 +1,4 @@
-# HID Auxiliary Display Library for Arduino 
+# USB HID-compliant Auxiliary Display Library for Arduino 
 
 This library allows an Arduino board with USB capabilities and connected LCD display to act as 
 a HID-compliant Auxiliary Display to the host computer, which can be used for displaying any system output
@@ -31,19 +31,19 @@ USB HID protocol as defined in the USB HID Usage Table for Auxiliary displays (0
 ## Setup & Usage
 Setup is very simple. Just clone this repository to Arduino libraries, then upload the .INO sketch from the /examples 
 folder, which corresponds to your LCD display model (1602A.ino, for example). Once upload is completed successfully 
-you will be able to print textual information from your host to the LCD display. You will also see the display as a
-HID-compliant device in your system
+you will be able to print textual information from your host to the LCD display, using HIDLCD API. You will also see 
+the display as a HID-compliant device in your system
 
 
 ### Setup of the host drivers
 Most popular operating systems do not provide a standard way of connecting HID-compliant displays so additional
 drivers and software will have to be deployed on your host to enable the output to the display:
 
-1. [HIDAPI library](https://github.com/libusb/hidapi)               - the low-level cross-platform library implementing 
+1. [HIDAPI library](https://github.com/libusb/hidapi)               - the low-level library implementing 
                                                                       HID protocol
-2. [HIDLCD library](https://github.com/abratchik/hidlcd)            - the cross-platform driver of the HID-compliant 
+2. [HIDLCD library](https://github.com/abratchik/hidlcd)            - the driver of the HID-compliant 
                                                                       LCD.
-3. [AuxDisplay service](https://github.com/abratchik/auxdisplay)    - the cross-platform service providing a 
+3. [AuxDisplay service](https://github.com/abratchik/auxdisplay)    - the service providing a 
                                                                       simple way to post textual data to the HID-compliant
                                                                       LCD display, including output of system shell
                                                                       commands
