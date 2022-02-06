@@ -29,10 +29,10 @@ The architecture of the host can vary depending on your project requirements but
 USB HID protocol as defined in the USB HID Usage Table for Auxiliary displays (0x14). 
 
 ## Setup & Usage
-### Deployment of the 
 Setup is very simple. Just clone this repository to Arduino libraries, then upload the .INO sketch from the /examples 
 folder, which corresponds to your LCD display model (1602A.ino, for example). Once upload is completed successfully 
-you will be able to print textual information from your host to the LCD display.
+you will be able to print textual information from your host to the LCD display. You will also see the display as a
+HID-compliant device in your system
 
 
 ### Setup of the host drivers
