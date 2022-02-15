@@ -15,6 +15,8 @@ information please read about [USB HID protocol](https://www.usb.org/hid).
 
 ## Supported LCD displays 
 * 1602A (Monochrome LCD 16x2)
+* 2004A (Monochrome LCD 20x4)
+* 2004A I2C (Monochrome LCD 20x4 with I2C module)
 
 ## Architecture of the solution
 The overall architecture of the solution is represented on the image below:
